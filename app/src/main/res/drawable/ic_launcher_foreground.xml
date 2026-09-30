@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Scaled group to center the 512x512 SVG logo in the 108x108 adaptive canvas -->
+    <group
+        android:scaleX="0.140625"
+        android:scaleY="0.140625"
+        android:translateX="18"
+        android:translateY="18">
+
+        <!-- Outer Ring Circle -->
+        <path
+            android:pathData="M 256,256 m -188,0 a 188,188 0 1,1 376,0 a 188,188 0 1,1 -376,0">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="0"
+                    android:startY="0"
+                    android:endX="512"
+                    android:endY="512"
+                    android:type="linear">
+                    <item
+                        android:color="#38BDF8"
+                        android:offset="0.0" />
+                    <item
+                        android:color="#10B981"
+                        android:offset="0.55" />
+                    <item
+                        android:color="#0F766E"
+                        android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Inner Circle -->
+        <path
+            android:pathData="M 256,256 m -152,0 a 152,152 0 1,1 304,0 a 152,152 0 1,1 -304,0">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="0"
+                    android:startY="0"
+                    android:endX="512"
+                    android:endY="512"
+                    android:type="linear">
+                    <item
+                        android:color="#111827"
+                        android:offset="0.0" />
+                    <item
+                        android:color="#020304"
+                        android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Cargo Box -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M 172,272 h 72 a 8,8 0 0 1 8,8 v 50 a 8,8 0 0 1 -8,8 h -72 a 8,8 0 0 1 -8,-8 v -50 a 8,8 0 0 1 8,-8 z" />
+
+        <!-- Cargo Box Lines -->
+        <path
+            android:strokeColor="#0A0B0D"
+            android:strokeWidth="4"
+            android:pathData="M 164,300 L 252,300" />
+        <path
+            android:strokeColor="#0A0B0D"
+            android:strokeWidth="4"
+            android:pathData="M 208,272 L 208,338" />
+
+        <!-- Bar 1 (Shortest) -->
+        <path
+            android:fillColor="#34D399"
+            android:pathData="M 270,308 h 16 a 4,4 0 0 1 4,4 v 22 a 4,4 0 0 1 -4,4 h -16 a 4,4 0 0 1 -4,-4 v -22 a 4,4 0 0 1 4,-4 z" />
+
+        <!-- Bar 2 (Medium) -->
+        <path
+            android:fillColor="#34D399"
+            android:pathData="M 304,276 h 16 a 4,4 0 0 1 4,4 v 54 a 4,4 0 0 1 -4,4 h -16 a 4,4 0 0 1 -4,-4 v -54 a 4,4 0 0 1 4,-4 z" />
+
+        <!-- Bar 3 (Tallest) -->
+        <path
+            android:fillColor="#6EE7B7"
+            android:pathData="M 338,234 h 16 a 4,4 0 0 1 4,4 v 96 a 4,4 0 0 1 -4,4 h -16 a 4,4 0 0 1 -4,-4 v -96 a 4,4 0 0 1 4,-4 z" />
+
+    </group>
+</vector>

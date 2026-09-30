@@ -1,0 +1,6 @@
+{
+  "name": "ImportManager",
+  "description": "Gestor de importaciones a Cuba 100% offline",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
